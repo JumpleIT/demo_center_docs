@@ -3,11 +3,11 @@
 ### Sommario
 
  1. [Introduzione](#introduzione)
- 2. [Setup Localizzazione e movimento](#setup-Localizazzione-e-movimento)
+ 2. [Setup Localizzazione e movimento](#setup-localizzazione-e-movimento)
  3. [Mappatura ambiente](#mappatura-ambiente)
  4. [Configurazione punti di riferimento](#configurazione-punti-di-riferimento)
  5. [Utilizzo giornaliero nel Demo Center](#utilizzo-giornaliero-nel-demo-center)
- 6. [Tips & Tricks](#tips-&-tricks)
+ 6. [Tips e Tricks](#tips-e-tricks)
 
 ## Introduzione
 La gestione della navigazione di Pepper deve essere svolta in due fasi: ***Setup***, dove il robot studia l'ambiente in modo da ottenerne una mappa virtuale e una di ***Production*** dove il robot si muove utilizzando la mappa creata in precedenza. Queste due fasi possono essere portate a termine nell'experience *DemoCenter Intesa Sanpaolo*, grazie a due app separate, che possono essere trovate nel menù applicazioni di Pepper.
@@ -17,7 +17,7 @@ La gestione della navigazione di Pepper deve essere svolta in due fasi: ***Setup
  
 lo scopo della prima app è la prima configurazione del movimento e della navigazione (mappatura ambiente, configurazione punti di riferimento), invece la seconda funge da app principale contenente i flussi riguardanti le isole e il demo center vero e proprio.
 
-## Setup Localizazzione e movimento
+## Setup Localizzazione e movimento
 Questa fase va effettuata solo una volta, oppure nel caso che il Pepper non riesca a localizzarsi e/o muoversi con successo nell'ambiente.
 Durante la configurazione, bisogna insegnare al robot la mappa dell'ambiente in cui dovrà muoversi, così come tutti i punti di interesse. Questo passaggio viene effettuato manualmente, spingendo il robot in giro per l'area per mostrargli il percorso e gli spazi che può percorrere. Per un risultato ottimale <ins>questo processo deve avvenire in assenza di oggetti o persone</ins> che non saranno presenti durante la fase di ***production*** altrimenti verranno registrati come ostacoli permanenti nella mappa.
 Il robot riconosce la sua posizione nello spazio grazie a dei **punti di riferimento** che in questo caso sono le <ins>lettere dalla A alla H scritte rigorosamente in maiuscolo</ins>, entreremo nel dettaglio delle funzioni di suddetti punti in seguito.
@@ -64,7 +64,7 @@ Avendo il robot localizzato con successo, si può selezionare quale versione del
 
 Si può ritornare in qualsiasi momento a questa schermata premendo il bumper posteriore.
 
-## Tips & Tricks
+## Tips e Tricks
 
  - Durante gli spostamenti, restare sempre dietro al Pepper per un miglior risultato.
  - Se l'app viene interrotta, ripristinata quando il Pepper non è in posizione **A** oppure quando il Pepper si perde durante il tragitto bisogna rieffetture la localizazione, dalla schermata di **Configurazione**.
